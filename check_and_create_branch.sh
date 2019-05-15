@@ -171,9 +171,9 @@ function git_add_new_branch()
     DEBUG=1
     if [[ "${branch_exists}" -eq "0" ]]
     then
-        debug_print "branch %s exists" "${default_branch}"
+        debug_print "branch '${default_branch}' exists" 
     else
-        debug_print "branch %s doesnt't exist" "${default_branch}"
+        debug_print "branch '${default_branch}' doesnt't exist" 
     fi
     DEBUG=0 
 
